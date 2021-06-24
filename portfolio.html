@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Портфолио</title>
   </head>
   <body>
@@ -25,14 +25,14 @@
             <nav class="header-navigation">
               <ul class="header-navigation-list">
                 <li class="header-navigation-list-items">
-                  <a
-                    href="./index.html"
-                    class="header-navigation-list-item"
+                  <a href="./index.html" class="header-navigation-list-item"
                     >Студия</a
                   >
                 </li>
                 <li class="header-navigation-list-items">
-                  <a href="./portfolio.html" class="header-navigation-list-item  visited"
+                  <a
+                    href="./portfolio.html"
+                    class="header-navigation-list-item visited"
                     >Портфолио</a
                   >
                 </li>
@@ -77,51 +77,55 @@
     </header>
     <!--Main content of site-->
     <main>
-      <section>
+      <section class="portfolio">
         <div class="container">
-          <h1 class="visually-hidden">Портфолио наших работ</h1>
+          <h1 class="portfolio-title">Портфолио наших работ</h1>
           <!-- Создание ссылок-кнопок для сортировки портфолио работ -->
-          <ul class="our-portfolio-sort">
-            <li>
-              <button type="button" class="menu-nav-link-sort">Все</button>
+          <ul class="portfolio-list">
+            <li class="portfolio-list-items">
+              <button autofocus type="button" class="portfolio-list-buttons">
+                Все
+              </button>
             </li>
-            <li>
-              <button type="button" class="menu-nav-link-sort">
+            <li class="portfolio-list-items">
+              <button type="button" class="portfolio-list-buttons">
                 Веб-сайты
               </button>
             </li>
-            <li>
-              <button type="button" class="menu-nav-link-sort">
+            <li class="portfolio-list-items">
+              <button type="button" class="portfolio-list-buttons">
                 Приложения
               </button>
             </li>
-            <li>
-              <button type="button" class="menu-nav-link-sort">Дизайн</button>
+            <li class="portfolio-list-items">
+              <button type="button" class="portfolio-list-buttons">
+                Дизайн
+              </button>
             </li>
-            <li>
-              <button type="button" class="menu-nav-link-sort">
+            <li class="portfolio-list-items">
+              <button type="button" class="portfolio-list-buttons">
                 Маркетинг
               </button>
             </li>
           </ul>
           <!-- Создание списка  работ портфолио -->
-          <ul class="our-portfolio-elements">
-            <li class="shadow-portfolio" >
-              <ahref="#">
+          <ul class="portfolio-works-list">
+            <li class="portfolio-works-items">
+              <a href="#" class="portfolio-works-items-link">
                 <img
                   src="./images/portfolio-web-tehnokryak.jpg"
                   alt="Технокряк"
                   width="370"
                 />
 
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Технокряк</h2>
-                  <p class="portfolio-title-type">Веб-сайт</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">Технокряк</h2>
+                  <p class="portfolio-works-items--type">Веб-сайт</p>
                 </div></a
               >
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -129,23 +133,23 @@
                 </li>
               </ul>
             </li>
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-design-neworlean.jpg"
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="portfolio-title-type">Дизайн</p>
+                  <p class="portfolio-works-items--type">Дизайн</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -153,21 +157,21 @@
                 </li>
               </ul>
             </li>
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-app-seafood.jpg"
                   alt="Ресторан Seafood"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-title-type">Приложение</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">Ресторан Seafood</h2>
+                  <p class="portfolio-works-items--type">Приложение</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -176,21 +180,21 @@
               </ul>
             </li>
 
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-market-prime.jpg"
                   alt="Проект Prime"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Проект Prime</h2>
-                  <p class="portfolio-title-type">Маркетинг</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">Проект Prime</h2>
+                  <p class="portfolio-works-items--type">Маркетинг</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -198,21 +202,21 @@
                 </li>
               </ul>
             </li>
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-app-boxes.jpg"
                   alt="Проект Boxes"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Проект Boxes</h2>
-                  <p class="portfolio-title-type">Приложение</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">Проект Boxes</h2>
+                  <p class="portfolio-works-items--type">Приложение</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -220,21 +224,23 @@
                 </li>
               </ul>
             </li>
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-web-noborders.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-title-type">Веб-сайт</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="portfolio-works-items--type">Веб-сайт</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -242,21 +248,23 @@
                 </li>
               </ul>
             </li>
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-design-limiteded.jpg"
                   alt="Издание Limited Edition"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Издание Limited Edition</h2>
-                  <p class="portfolio-title-type">Дизайн</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="portfolio-works-items--type">Дизайн</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -265,21 +273,21 @@
               </ul>
             </li>
 
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-market-lab.jpg"
                   alt="Проект LAB"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Проект LAB</h2>
-                  <p class="portfolio-title-type">Маркетинг</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">Проект LAB</h2>
+                  <p class="portfolio-works-items--type">Маркетинг</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -287,21 +295,21 @@
                 </li>
               </ul>
             </li>
-            <li class="shadow-portfolio">
+            <li class="portfolio-works-items">
               <a href="#">
                 <img
                   src="./images/portfolio-app-business.jpg"
                   alt="Growing Business"
                   width="370"
                 />
-                <div class="box-title-type">
-                  <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-title-type">Приложение</p>
+                <div class="portfolio-works-items-container">
+                  <h2 class="portfolio-works-items--title">Growing Business</h2>
+                  <p class="portfolio-works-items--type">Приложение</p>
                 </div>
               </a>
               <ul>
-                <li class="portfolio-submenu">
-                  <p class="portfolio-text">
+                <li class="portfolio-works--submenu">
+                  <p class="portfolio-works--text">
                     Технокряк это современная площадка распространения
                     коронавируса. Компании используют эту платформу для
                     цифрового шпионажа и атак на защищённые сервера конкурентов.
@@ -314,7 +322,7 @@
       </section>
     </main>
     <!--Footer-->
-        <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <a href="./index.html" class="footer-logo"
           ><span class="footer-logo_highlight">Web</span>Studio</a
