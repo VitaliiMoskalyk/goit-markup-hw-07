@@ -1141,7 +1141,7 @@ a,
 .castom-checkbox-input:checked + .castom-checkbox_policy-txt {
   border: hidden;
   background-color: #2196f3;
-  background-image: url("../images/Vector.svg");
+  background-image: url(".././images/Vector.svg");
   background-size: contain;
   background-origin: border-box;
   background-repeat: no-repeat;
